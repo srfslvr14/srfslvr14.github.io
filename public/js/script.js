@@ -24,7 +24,7 @@ let clicks = 0;
 no_button.addEventListener('click', () => {
     // Change banner source
     let banner = document.getElementById('banner');
-    if (clicks === 0) banner.src = "images/mid.gif";
+    // if (clicks === 0) banner.src = "images/mid.gif";
     clicks++;
     // increase button height and width gradually to 250px
     const sizes = [40, 50, 30, 35, 45]
@@ -50,7 +50,7 @@ no_button.addEventListener('click', () => {
 yes_button.addEventListener('click', () => {
     // change banner gif path
     let banner = document.getElementById('banner');
-    banner.src = "images/mid.gif";
+    // banner.src = "images/mid.gif";
     // hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];
     buttons.style.display = "none";
