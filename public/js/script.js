@@ -58,3 +58,7 @@ yes_button.addEventListener('click', () => {
     let message = document.getElementsByClassName('message')[0];
     message.style.display = "block";
 });
+
+window.onload = function() {
+    document.getElementById("music_file").play();
+}
