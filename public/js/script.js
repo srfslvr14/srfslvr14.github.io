@@ -59,6 +59,6 @@ yes_button.addEventListener('click', () => {
     message.style.display = "block";
 });
 
-window.onload = function() {
+window.onclick = function() {
     document.getElementById("music_file").play();
 }
